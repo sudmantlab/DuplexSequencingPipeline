@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# This is a run script for the DS snakemake pipeline
+inConfig="$1"
+snakemake -s /global/home/users/isabel_serrano/local_modules/Duplex-Seq-Pipeline/Snakefile --use-conda -j 24 --dag --conda-prefix /global/home/users/isabel_serrano/local_modules/Duplex-Seq-Pipeline/.snakemake --config samples="${inConfig}" -- | dot -Tpdf > ${inConfig}_dag.pdf

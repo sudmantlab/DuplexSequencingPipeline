@@ -1,0 +1,28 @@
+# AMBIGUITY CLASSES: 
+#   -1: Missing 'am' tag
+#   0: BLAST has 1 best match, matches bwa position
+#   1: BLAST has 1 best match, does not match bwa position
+#   2: BLAST has 2+ best matches, correct species
+#   3: BLAST has 2+ best matches, at least one incorrect species
+#   4: BLAST did not attempt alignment, or no blast matches
+#   5: Not BLASTed
+
+# Non-ambiguous file ambiguity class counts: 
+Class	Counts
+0	4
+1	0
+2	0
+3	0
+4	0
+5	196
+-1	0
+
+# Ambiguous file ambiguity class counts: 
+Class	Counts
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+-1	0

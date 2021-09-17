@@ -1,0 +1,6 @@
+read_type	reads	reads_unmapped	reads_clipped_pre	reads_clipped_post	reads_clipped_five_prime	reads_clipped_three_prime	reads_clipped_overlapping	bases	bases_clipped_pre	bases_clipped_post	bases_clipped_five_prime	bases_clipped_three_prime	bases_clipped_overlapping
+Fragment	0	0	0	0	0	0	0	0	0	0	0	0	0
+ReadOne	101	0	100	100	100	0	0	13400	200	700	500	0	0
+ReadTwo	101	0	100	100	100	0	0	13395	200	700	500	0	0
+Pair	202	0	200	200	200	0	0	26795	400	1400	1000	0	0
+All	202	0	200	200	200	0	0	26795	400	1400	1000	0	0

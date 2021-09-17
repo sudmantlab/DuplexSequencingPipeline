@@ -1,0 +1,44 @@
+##CountMuts output:
+##Input file: 	../testData/Final/dcs/test.dcs.final.bam
+##Input reference:	/global/home/users/isabel_serrano/local_modules/Duplex-Seq-Pipeline/test/testRef/testRef.fa
+##Input bed:	/global/home/users/isabel_serrano/local_modules/Duplex-Seq-Pipeline/test/testTarget/test.bed
+##Minimum Depth: 	100
+##Clonality: 	0.0-0.1
+##OVERAL = Sum of Genes
+##GENE = Total
+##Unique mutations only
+#SAMPLE,REGION,MUTATION_TYPE,MUTATION_CLASS,COUNT,DENOMINATOR,FREQUENCY
+test,OVERALL,A>T,SNV,1,4700,2.13e-04
+test,OVERALL,A>C,SNV,0,4700,0.00e+00
+test,OVERALL,A>G,SNV,0,4700,0.00e+00
+test,OVERALL,T>A,SNV,0,7300,0.00e+00
+test,OVERALL,T>C,SNV,0,7300,0.00e+00
+test,OVERALL,T>G,SNV,0,7300,0.00e+00
+test,OVERALL,C>A,SNV,0,8799,0.00e+00
+test,OVERALL,C>T,SNV,0,8799,0.00e+00
+test,OVERALL,C>G,SNV,1,8799,1.14e-04
+test,OVERALL,G>A,SNV,0,5500,0.00e+00
+test,OVERALL,G>T,SNV,0,5500,0.00e+00
+test,OVERALL,G>C,SNV,0,5500,0.00e+00
+test,OVERALL,Total,SNV,2,26299,7.60e-05
+test,OVERALL,+5,INS,1,26299,3.80e-05
+test,OVERALL,Total,INS,1,26299,3.80e-05
+test,OVERALL,-17,DEL,1,26299,3.80e-05
+test,OVERALL,Total,DEL,1,26299,3.80e-05
+test,TP53_hg38,A>T,SNV,1,4700,2.13e-04
+test,TP53_hg38,A>C,SNV,0,4700,0.00e+00
+test,TP53_hg38,A>G,SNV,0,4700,0.00e+00
+test,TP53_hg38,T>A,SNV,0,7300,0.00e+00
+test,TP53_hg38,T>C,SNV,0,7300,0.00e+00
+test,TP53_hg38,T>G,SNV,0,7300,0.00e+00
+test,TP53_hg38,C>A,SNV,0,8799,0.00e+00
+test,TP53_hg38,C>T,SNV,0,8799,0.00e+00
+test,TP53_hg38,C>G,SNV,1,8799,1.14e-04
+test,TP53_hg38,G>A,SNV,0,5500,0.00e+00
+test,TP53_hg38,G>T,SNV,0,5500,0.00e+00
+test,TP53_hg38,G>C,SNV,0,5500,0.00e+00
+test,TP53_hg38,Total,SNV,2,26299,7.60e-05
+test,TP53_hg38,+5,INS,1,26299,3.80e-05
+test,TP53_hg38,Total,INS,1,26299,3.80e-05
+test,TP53_hg38,+17,DEL,1,26299,3.80e-05
+test,TP53_hg38,Total,DEL,1,26299,3.80e-05

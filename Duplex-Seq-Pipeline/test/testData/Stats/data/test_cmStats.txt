@@ -1,0 +1,15 @@
+Consensus Making Statistics:
+Command: /global/home/users/isabel_serrano/local_modules/Duplex-Seq-Pipeline/scripts/UnifiedConsensusMaker.py --input /dev/stdin --taglen 8 --spacerlen 1 --loclen 8 --write-sscs --prefix test --tagstats --cutoff 0.7 --Ncutoff 0.02 --numCores 4 --minmem 3 --maxmem 200
+Started at Thursday, 01. October 2020 01:09PM
+Finished at Thursday, 01. October 2020 01:10PM
+3817 reads UMI processed
+3816 reads processed
+404 families processed
+	0 unrepresented families
+	0 families with family size < 3
+	0 families (DCS pairs) filtered for UMIs with mononucleotide repeats
+404 SSCS made
+	0 SSCS filtered for excessive Ns
+202 DCS made
+	0 DCS failed due to missing SSCS
+	0 DCS filtered for excessive Ns

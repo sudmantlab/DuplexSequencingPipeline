@@ -1,0 +1,24 @@
+##fileformat=VCFv4.3
+##FILTER=<ID=PASS,Description="All filters passed">
+##bwaVersion=0.7.17-r1188
+##GATKVersion=3.8-1-0-gf15c1c3ef
+##GATKCommand=knownAlleles=[] targetIntervals=../testData/test.dcs.filt.clipped.intervals LODThresholdForCleaning=5.0 consensusDeterminationModel=USE_READS entropyThreshold=0.15 maxReadsInMemory=150000 maxIsizeForMovement=3000 maxPositionalMoveAllowed=200 maxConsensuses=30 maxReadsForConsensuses=120 maxReadsForRealignment=1000000 noOriginalAlignmentTags=false nWayOut=null generate_nWayOut_md5s=false check_early=false noPGTag=false keepPGTags=false indelsFileForDebugging=null statisticsFileForDebugging=null SNPsFileForDebugging=null
+##VCF_MutposVersion=3.8-1-0-gf15c1c3ef
+##VCF_MutposCommand=/global/home/users/isabel_serrano/local_modules/Duplex-Seq-Pipeline/scripts/BamToMutposVCF.py -i ../testData/Final/dcs/test.dcs.final.bam -f /global/home/users/isabel_serrano/local_modules/Duplex-Seq-Pipeline/test/testRef/testRef.fa -o test.dcs.region.mutpos.vcf --samp_name test
+##contig=<ID=TP53_hg38,length=21149>
+##ALT=<ID=*,Description="Represents allele(s) other than observed.">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read Depth">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Allele Depth">
+##FORMAT=<ID=AF,Number=R,Type=Float,Description="Allele frequency">
+##FORMAT=<ID=NC,Number=1,Type=Integer,Description="N Count">
+##FILTER=<ID=low_depth,Description="Sample depth at this locus is < 100.">
+##FILTER=<ID=SNP,Description="This variant is probably a SNP, and not a somatic variant.">
+##bcftools_filterVersion=1.9+htslib-1.9
+##bcftools_filterCommand=filter -T /global/home/users/isabel_serrano/local_modules/Duplex-Seq-Pipeline/test/testTarget/test.bed -O v -o Final/dcs/test.dcs.vcf Final/dcs/test.dcs.region.Marked.mutpos.vcf; Date=Thu Oct  1 13:16:52 2020
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	TEST
+TP53_hg38	12447	.	C	G	.	PASS	.	AD:DP:AF:NC	99,1:100:0.99,0.01:0
+TP53_hg38	12474	.	C	A	.	SNP	.	AD:DP:AF:NC	0,100:100:0,1:0
+TP53_hg38	12809	.	T	TATCTC	.	PASS	.	AD:DP:AF:NC	99,1:100:0.99,0.01:0
+TP53_hg38	12842	.	A	T	.	PASS	.	AD:DP:AF:NC	99,1:100:0.99,0.01:0
+TP53_hg38	12854	.	GACCAGGCTTGGTGGCTC	G	.	PASS	.	AD:DP:AF:NC	99,1:100:0.99,0.01:0
+TP53_hg38	12885	.	C	T	.	SNP	.	AD:DP:AF:NC	50,50:100:0.5,0.5:0

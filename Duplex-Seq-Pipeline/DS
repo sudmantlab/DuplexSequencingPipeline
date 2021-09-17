@@ -1,0 +1,5 @@
+#!/bin/bash
+#script modified on 3/10/2021 by Isabel Serrano to add a latency wait flag in the snakemake execution
+# This is a run script for the DS snakemake pipeline
+inConfig="$1"
+snakemake -s /global/home/users/isabel_serrano/local_modules/Duplex-Seq-Pipeline/Snakefile --latency-wait 7 --use-conda -j 24 --conda-prefix /global/home/users/isabel_serrano/local_modules/Duplex-Seq-Pipeline/.snakemake --config samples="${inConfig}"

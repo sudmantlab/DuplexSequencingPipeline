@@ -1,0 +1,3 @@
+Number_Mismatches	Number_Reads
+0	196
+1	4
