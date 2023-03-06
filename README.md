@@ -1,2 +1,3 @@
-# conplastic_strains
-Note: the duplex pipeline was developed by the Kennedy Lab at the University of Washington, Seattle. We git cloned the available version at the time and altered the original Snakefile such that it took as input a bam file. 
+# duplex sequencing  pipeline
+This repo is a branch off of the pipeline developed by the Kennedy Lab at the University of Washington, Seattle. 
+It has been modified to accept bam files.
